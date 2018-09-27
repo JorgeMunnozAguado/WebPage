@@ -1,0 +1,132 @@
+/*
+	Comment
+*/
+
+a { /* Comment */ color: /* Comment */ Red; }
+
+.TestClass {
+	color: Black;
+	background-color: White;
+	text-align: left;
+}
+
+body {
+    background-image: url("fondo-def.png");
+}
+
+#body-div {
+    background-color: White;
+    margin: auto;
+    width: 65%;
+    padding: 20px 2px 15px 2px;
+}
+
+img.name {
+    height: 204px;
+    position: absolute;
+}
+
+div.name {
+    height: 199px;
+    width: 590px;
+    background: #DADADA;
+    margin: auto;
+}
+
+.letter-cont {
+    position: absolute;
+    margin-top: 42px;
+    padding: 6px;
+}
+
+.letter {
+    float: left;
+    height: 114px;
+}
+
+.j {
+    width: 91px;
+}
+
+.o {
+    width: 113px;
+    margin-left: 14px;
+
+}
+
+.r {
+    width: 108px;
+    margin-left: 14px;
+}
+
+.g {
+    width: 113px;
+    margin-left: 9px;
+
+}
+
+.e {
+    width: 98px;
+    margin-left: 14px;
+}
+
+.move {
+    -webkit-transition: 0.2s;
+    background: blue;
+    height: 1px;
+}
+
+.center {
+    margin: auto;
+    width: 90%;
+    margin-top: 100px;
+}
+
+.floating-center {
+    float: left;
+}
+
+#biography-div {
+    height: 150px;
+}
+
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+.type1-circle {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid #DADADA;
+}
+
+.project {
+    border: 1px solid #DADADA;
+    padding: 15px;
+    padding-left: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#social-div {
+    margin-bottom: 80px;
+}
+
+.bottom {
+    /*float: left;*/
+    /*margin-left: 80px;*/
+    margin-left: 8%;
+}
+
+/*text.bottom {
+    padding: 19px;
+    font-size: 15px;
+}*/
+
+ .bottom-img {
+     height: 50px;
+ }
