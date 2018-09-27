@@ -1,24 +1,40 @@
-/*
-	Comment
-*/
-
-a { /* Comment */ color: /* Comment */ Red; }
-
-.TestClass {
-	color: Black;
-	background-color: White;
-	text-align: left;
-}
 
 body {
-    background-image: url("fondo-def.png");
+    margin: 0;
+    font-family: Candara;
 }
 
-#body-div {
+li {
+    list-style-type: none;
+}
+
+a:link {
+    color: #045FB4;
+}
+
+a:visited {
+    color: #045FB4;
+}
+
+a:hover {
+    color: #DADADA;
+}
+
+a:active {
+    color: #045FB4;
+}
+
+#body-div { /**/
     background-color: White;
-    margin: auto;
-    width: 65%;
-    padding: 20px 2px 15px 2px;
+}
+
+.header {
+    width: 100%;
+}
+
+div.header {
+    position: absolute;
+    margin-top: -225px;
 }
 
 img.name {
@@ -29,8 +45,13 @@ img.name {
 div.name {
     height: 199px;
     width: 590px;
-    background: #DADADA;
     margin: auto;
+    margin-top: 170px;
+}
+
+h2.name {
+    position: relative;
+    color: #ffeb6a;
 }
 
 .letter-cont {
@@ -45,52 +66,50 @@ div.name {
 }
 
 .j {
-    width: 91px;
+    width: 92px;
 }
 
 .o {
-    width: 113px;
-    margin-left: 14px;
+    width: 115px;
+    margin-left: 12px;
 
 }
 
 .r {
-    width: 108px;
-    margin-left: 14px;
+    width: 115px;
+    margin-left: 7px;
 }
 
 .g {
-    width: 113px;
-    margin-left: 9px;
+    width: 115px;
+    margin-left: 7px;
 
 }
 
 .e {
     width: 98px;
-    margin-left: 14px;
+    margin-left: 12px;
 }
 
 .move {
     -webkit-transition: 0.2s;
-    background: blue;
+    background: #ffeb6a; /*#045FB4*/
     height: 1px;
 }
 
-.center {
-    margin: auto;
-    width: 90%;
-    margin-top: 100px;
+.body {
+    position: relative;
+    background: #fff;
+    height: 100px;
+    margin-top: 30%;
+    padding: 50px 2px 2px 20px;
 }
 
 .floating-center {
     float: left;
 }
 
-#biography-div {
-    height: 150px;
-}
-
-.circleBase {
+.circle {
     border-radius: 50%;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 }
@@ -98,35 +117,48 @@ div.name {
 .type1-circle {
     width: 100px;
     height: 100px;
-    background: yellow;
-    border: 3px solid #DADADA;
+    border: 3px solid #ffeb6a; /*#DADADA*/
+}
+
+.type2-circle {
+    width: 10px;
+    height: 10px;
+    float: right;
+    margin-top: -30px;
 }
 
 .project {
+    padding: 1px 10px 1px 10px;
     border: 1px solid #DADADA;
-    padding: 15px;
-    padding-left: 10px;
+    margin-top: -1px;
 }
 
-h1, h2 {
-    text-align: center;
+.done {
+    background: green;
+}
+
+.process {
+    background: yellow;
+}
+
+.suggestion {
+    background: red;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
 }
 
 #social-div {
     margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 .bottom {
-    /*float: left;*/
-    /*margin-left: 80px;*/
     margin-left: 8%;
 }
 
-/*text.bottom {
-    padding: 19px;
-    font-size: 15px;
-}*/
-
- .bottom-img {
+.bottom-img {
      height: 50px;
- }
+}
