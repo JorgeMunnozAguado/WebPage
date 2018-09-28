@@ -7,24 +7,23 @@
     <meta name="theme-color" content="#ffeb6a" />
     <link rel="stylesheet" href="styles.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-16" />
-    
-    <script>
-    
-        function moveLetter( name, size ) { 
-            document.getElementById( name ).style.height = size;
-        }
-    </script>
+    <script src="scripts.js"></script>
+
 </head>
-<body>
+<body onscroll="prueba()" onload="setPaddingImage()">
     <div id="body-div">
     
-        <div id="header-div"
+        <div id="header-div">
             
-            <div class="header">
+            <!-- data-src-desktop data-src-tablet data-src-phone .... for images/-->
+            
+            <!--
+            <div class="header"> 
                 <img src="DSC_0372.JPG" class="header"/>
             </div>
+            /-->
         
-            <div class="name">
+            <div id="header-letters" class="name">
             
                 <div class="letter-cont">
                 
@@ -51,7 +50,7 @@
             
         </div>
         
-        <div class="body">
+        <div id="body-info" class="body">
             
             <div class="center" style="min-height: 150px;">
             
@@ -67,7 +66,7 @@
             <div class="center">
             
                 <h3>Proyectos</h3>
-                
+
                 <div style="width: 80%; margin-left: 10%;">
                     
                     <div class="project">

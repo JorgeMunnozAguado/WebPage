@@ -8,11 +8,7 @@ li {
     list-style-type: none;
 }
 
-a:link {
-    color: #045FB4;
-}
-
-a:visited {
+a {
     color: #045FB4;
 }
 
@@ -20,9 +16,6 @@ a:hover {
     color: #DADADA;
 }
 
-a:active {
-    color: #045FB4;
-}
 
 #body-div { /**/
     background-color: White;
@@ -32,9 +25,10 @@ a:active {
     width: 100%;
 }
 
-div.header {
-    position: absolute;
-    margin-top: -225px;
+#header-div {
+    background-image: url(DSC_0372.JPG);
+    padding-top: 1px;
+    max-height: 1125px;
 }
 
 img.name {
@@ -46,7 +40,7 @@ div.name {
     height: 199px;
     width: 590px;
     margin: auto;
-    margin-top: 170px;
+    position: inherit;
 }
 
 h2.name {
@@ -100,8 +94,6 @@ h2.name {
 .body {
     position: relative;
     background: #fff;
-    height: 100px;
-    margin-top: 30%;
     padding: 50px 2px 2px 20px;
 }
 
@@ -111,7 +103,6 @@ h2.name {
 
 .circle {
     border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 }
 
 .type1-circle {
