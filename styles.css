@@ -16,17 +16,13 @@ a:hover {
     color: #DADADA;
 }
 
-
-#body-div { /**/
-    background-color: White;
-}
-
 .header {
     width: 100%;
 }
 
 #header-div {
     background-image: url(DSC_0372.JPG);
+    background-size: cover;
     padding-top: 1px;
     max-height: 1125px;
 }
@@ -37,15 +33,34 @@ img.name {
 }
 
 div.name {
-    height: 199px;
+    height: 204px;
     width: 590px;
     margin: auto;
     position: inherit;
 }
 
 h2.name {
-    position: relative;
     color: #ffeb6a;
+    text-align: center;
+    height: 30px;
+    margin: 20px;
+    /*width: max-content;*/
+}
+
+#header-name {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    -webkit-transition: 0.2s;
+}
+
+.sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #242323;
+    box-shadow: 0 1px 13px #8d8d8d78;
 }
 
 .letter-cont {
@@ -86,7 +101,7 @@ h2.name {
 }
 
 .move {
-    -webkit-transition: 0.2s;
+    -webkit-transition: 0.2s; /*cubic-bezier(0.29, 2.26, 1, 3.82) 0s*/
     background: #ffeb6a; /*#045FB4*/
     height: 1px;
 }
@@ -112,10 +127,11 @@ h2.name {
 }
 
 .type2-circle {
-    width: 10px;
-    height: 10px;
     float: right;
-    margin-top: -30px;
+    margin-top: -37px;
+    padding: 5px;
+    border-radius: 13px;
+    font-size: 12px;
 }
 
 .project {

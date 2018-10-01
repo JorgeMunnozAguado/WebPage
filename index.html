@@ -3,98 +3,93 @@
 <head>
 
 	<title>Jorge Mu&#241;oz Aguado</title>
-    <!--<link href="./logom.png" rel="shortcut icon">/-->
+    <link href="https://media.licdn.com/dms/image/C4D03AQHRJEigGX6vOQ/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=xMsUc1TSHUGYv0WFlgrnIzIvxEVMaqp_EVg5SLGteLA" rel="shortcut icon">
     <meta name="theme-color" content="#ffeb6a" />
     <link rel="stylesheet" href="styles.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-16" />
     <script src="scripts.js"></script>
 
 </head>
-<body onscroll="prueba()" onload="setPaddingImage()">
-    <div id="body-div">
+<body onscroll="scrolling()" onload="setPaddingImage()">
     
-        <div id="header-div">
-            
-            <!-- data-src-desktop data-src-tablet data-src-phone .... for images/-->
-            
-            <!--
-            <div class="header"> 
-                <img src="DSC_0372.JPG" class="header"/>
-            </div>
-            /-->
+    <div id="auxiliar"></div>
+    <div id="header-div">
+    
+        <div id="header-letters" class="name">
         
-            <div id="header-letters" class="name">
+            <div class="letter-cont">
             
-                <div class="letter-cont">
-                
-                    <div class="letter j move" id="j"></div>
-                    <div class="letter o move" id="o"></div>
-                    <div class="letter r move" id="r"></div>
-                    <div class="letter g move" id="g"></div>
-                    <div class="letter e move" id="e"></div>
-                </div>
-            
-                <img src="letras.png" class="name"/>
-                
-                <div class="letter-cont">
-                    
-                    <div class="letter j" onmouseover="moveLetter('j', '120px')" onmouseout="moveLetter('j', '1px')"></div>
-                    <div class="letter o" onmouseover="moveLetter('o', '120px')" onmouseout="moveLetter('o', '1px')"></div>
-                    <div class="letter r" onmouseover="moveLetter('r', '120px')" onmouseout="moveLetter('r', '1px')"></div>
-                    <div class="letter g" onmouseover="moveLetter('g', '120px')" onmouseout="moveLetter('g', '1px')"></div>
-                    <div class="letter e" onmouseover="moveLetter('e', '120px')" onmouseout="moveLetter('e', '1px')"></div>
-                </div>
-                
+                <div class="letter j move" id="j"></div>
+                <div class="letter o move" id="o"></div>
+                <div class="letter r move" id="r"></div>
+                <div class="letter g move" id="g"></div>
+                <div class="letter e move" id="e"></div>
             </div>
-            <center><h2 class="name">Jorge Mu&#241;oz Aguado</h2></center>
+        
+            <img src="letras.png" class="name"/>
+            
+            <div class="letter-cont">
+                
+                <div class="letter j" onmouseover="moveLetter('j', '120px')" onmouseout="moveLetter('j', '1px')"></div>
+                <div class="letter o" onmouseover="moveLetter('o', '120px')" onmouseout="moveLetter('o', '1px')"></div>
+                <div class="letter r" onmouseover="moveLetter('r', '120px')" onmouseout="moveLetter('r', '1px')"></div>
+                <div class="letter g" onmouseover="moveLetter('g', '120px')" onmouseout="moveLetter('g', '1px')"></div>
+                <div class="letter e" onmouseover="moveLetter('e', '120px')" onmouseout="moveLetter('e', '1px')"></div>
+            </div>
             
         </div>
+        <div id="header-name"><h2 class="name">Jorge Mu&#241;oz Aguado</h2></div>
         
-        <div id="body-info" class="body">
+    </div>
+    
+    <div id="body-info" class="body">
+        
+        <div class="center" style="min-height: 150px;">
+        
+            <h3>Biograf&#237;a</h3>
+            <img class="floating-center circle type1-circle" src="https://media.licdn.com/dms/image/C4D03AQHRJEigGX6vOQ/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=xMsUc1TSHUGYv0WFlgrnIzIvxEVMaqp_EVg5SLGteLA"/>
             
-            <div class="center" style="min-height: 150px;">
-            
-                <h3>Biograf&#237;a</h3>
-                <img class="floating-center circle type1-circle" src="https://media.licdn.com/dms/image/C4D03AQHRJEigGX6vOQ/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=xMsUc1TSHUGYv0WFlgrnIzIvxEVMaqp_EVg5SLGteLA"/>
-                
-                <div class="floating-center" style="margin-left: 35px;">
-                    <li><b>Actualmente:</b> estudiante de Ingeniería Informática en la <a href="https://uam.es/" target="_blank">UAM</a></li>
-                    <li><b>Experiencia laboral:</b> becario durente 2 meses en el <a href="www.iic.uam.es/" target="_blank">Instituto de Ingeniería del Conocimiento (ICC)</a></li>
-                </div>
+            <div class="floating-center" style="margin-left: 35px;">
+                <text><b>Actualmente:</b> estudiante de Ingeniería Informática en la <a href="https://uam.es/" target="_blank">UAM</a></text><br/>
+                <text><b>Experiencia laboral:</b> becario durente 2 meses en el <a href="www.iic.uam.es/" target="_blank">Instituto de Ingeniería del Conocimiento (ICC)</a></text>
             </div>
-                
-            <div class="center">
+        </div>
             
-                <h3>Proyectos</h3>
+        <div class="center">
+        
+            <h3>Proyectos</h3>
 
-                <div style="width: 80%; margin-left: 10%;">
-                    
-                    <div class="project">
-                        <p>Detectar números con redes neuronales</p>
-                        <div class="circle type2-circle suggestion" title="Propuesto"></div>
-                    </div>
-                    <div class="project">
-                        <p>Robot aspiradora</p>
-                        <div class="circle type2-circle process" title="En proceso"></div>
-                    </div>
-                    <div class="project">
-                        <p>Página web</p>
-                        <div class="circle type2-circle done" title="Terminado"></div>
-                    </div>
-                    <div class="project">
-                        <p>Péndulo Invertido</p>
-                        <div class="circle type2-circle done" title="Terminado"></div>
-                    </div>
-                    
+            <div style="width: 80%; margin-left: 10%;">
+                
+                <div class="project">
+                    <p>Juego del Snake</p>
+                    <div class="type2-circle suggestion" title="Propuesto">Propuesto</div>
                 </div>
+                <div class="project">
+                    <p>Detectar números con redes neuronales</p>
+                    <div class="type2-circle suggestion" title="Propuesto">Propuesto</div>
+                </div>
+                <div class="project">
+                    <p>Robot aspiradora</p>
+                    <div class="type2-circle process" title="En proceso">En proceso</div>
+                </div>
+                <div class="project">
+                    <p>Página web</p>
+                    <div class="type2-circle done" title="Terminado">Terminado</div>
+                </div>
+                <div class="project">
+                    <p>Péndulo Invertido</p>
+                    <div class="type2-circle done" title="Terminado">Terminado</div>
+                </div>
+                
             </div>
-            
-            <div id="social-div" class="center">
+        </div>
         
-                <a href="https://www.linkedin.com/in/jorge-mu%C3%B1oz-aguado/" class="bottom" target="_blank"><img src="linkedin_logo_black.png" id="linkeding-img" onmouseover="this.src = 'linkedin_logo.png'" onmouseout="this.src = 'linkedin_logo_black.png'" class="bottom-img"/></a>
-                <a href="https://github.com/JorgeMunnozAguado" class="bottom" target="_blank"><img src="github_logo_black.png" id="linkeding-img" onmouseover="this.src = 'github_logo.png'" onmouseout="this.src = 'github_logo_black.png'" class="bottom-img"/></a>
-                <text class="bottom">jorge.munnoza@estudiante.uam.es</text>
-            </div>
+        <div id="social-div" class="center">
+    
+            <a href="https://www.linkedin.com/in/jorge-mu%C3%B1oz-aguado/" class="bottom" target="_blank"><img src="linkedin_logo_black.jpg" id="linkeding-img" onmouseover="this.src = 'linkedin_logo.jpg'" onmouseout="this.src = 'linkedin_logo_black.jpg'" class="bottom-img"/></a>
+            <a href="https://github.com/JorgeMunnozAguado" class="bottom" target="_blank"><img src="github_logo_black.jpg" id="linkeding-img" onmouseover="this.src = 'github_logo.jpg'" onmouseout="this.src = 'github_logo_black.jpg'" class="bottom-img"/></a>
+            <text class="bottom">jorge.munnoza@estudiante.uam.es</text>
         </div>
     </div>
 
